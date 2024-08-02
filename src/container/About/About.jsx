@@ -1,15 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 import { urlFor, client } from '../../client';
-import { images } from '../../constants'
-
-/*const abouts = [
-  {title: 'Web Development', description: 'I am a good web developer', imgUrl: 'https://cdn.sanity.io/images/uuob9mh2/production/db53adca404b7410a2869db815e4ce77da2e7e53-1200x900.png'},
-] 
-*/
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
